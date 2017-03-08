@@ -1,0 +1,3 @@
+$(".zhen").animate({opacity:1,left:'286'},1000,function(){$(".zhentips").animate({opacity:1,top:'132'},1000,function(){$(".mi").animate({opacity:1,left:'472'},1000,function(){$(".mitips").animate({opacity:1,top:'82'},1000,function(){$(".quan").animate({opacity:1,left:'656'},1000,function(){$(".quantips").animate({opacity:1,top:'185'},1000)})})})});});$(".movieList li").filter(function(i){})
+$(".movieList").find("li").hover(function(){$(this).find(".hovershow").show()},function(){$(this).find(".hovershow").hide()})
+$(".hovershow").on('click',function(){alert('请下载爱VR手机客户端进行360度全景播放');})
